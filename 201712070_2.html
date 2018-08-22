@@ -1,0 +1,395 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+</head>
+<style>
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: #FF8C00;
+	display:flex;
+	align-items: center;
+	position:absolute;
+	width:100%;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size:18px;
+	
+}
+
+
+
+li {
+    float: left;
+	
+	align-items:center;
+}
+
+li>a {
+   
+    color:white;
+    float:left;
+    padding: 20px 20px;
+    text-decoration: none;
+	font-size:17px;
+	align-items:center;
+}
+
+
+
+li div
+{
+	background-color:white; 
+
+	width:200px;
+	height:22px;
+}
+
+
+
+.box1{
+
+    height:40px;
+	width:100%;
+	
+	float:left;
+
+	
+}
+
+.box2{
+	position:fixed;
+	top:0;
+	padding-bottom:10px;
+	padding-top:0px;
+	width:93%;
+	margin:70px 0px 0px;
+	height:100px;
+	
+}
+
+.box3{
+	
+	width:97%;
+	margin:60px 0px 0px;
+	padding:40px 10px;
+	display:flex;
+	float:left;
+}
+
+
+
+
+.box4{
+	
+	height:80px;
+	width:20%;
+	margin:10px 20px;
+	padding:10px 8px;
+	display:flex;
+	flex-wrap:wrap;
+	float:left;
+}
+
+.sticky + .box3 {
+  padding-top: 102px;
+}
+.box5{
+
+	
+	height:260px;
+	width:97%;
+	margin:10px 70px;
+	padding:10px 10px;
+
+	float:left;
+}
+
+.box6{
+	
+	
+	height:300px;
+	margin:20px 0px 20px 10px;
+	padding:10px 50px;
+	width:15%;
+
+	float:left;
+}
+
+.box7
+{
+
+	background-color:#053c6d;
+	height:700px;
+	width:97%;
+	margin:0px 0px;
+	padding:0px 10px;
+	color:white;
+	float:left;
+}
+.sticky {
+  position: fixed;
+  margin-top: 0px;
+  width: 98%;
+}
+
+li>a>img
+{
+	height:25px;
+	width:30px;
+	align-items:center;
+}
+
+.mySlides 
+{
+	display:none;
+}
+
+<!--a.ex1:hover
+{
+	
+	
+	overflow:hidden;
+	
+}-->
+
+.box07
+{
+	width:100%;
+	height:100px;
+	background-color:#053c6d;
+}
+
+
+
+.marq
+{
+  width: 80%;
+  height: 35px;
+  margin: 0px 0px;
+  overflow: hidden;
+  position: relative;
+  float:right;
+  border: none;
+  background-color: #f5821f;
+  display:flex;
+  align-items:center;
+}
+
+.marq a
+{
+	align-items:center;
+	color:black;
+	text-decoration:none;
+}
+
+
+@media(min-width:0px) and (max-width:980px)
+{
+	#b1{display:none;} 
+	#box2{display:none;} 
+	#b2n{display:block;}
+	#box3{height:400px;margin:0px;padding-top:0px;width:100%;}
+	#box41{display:none;}
+	#box42{display:none;}
+	#box43{width:40%;margin:0;padding-left:5px;}
+	#box6{margin:40px 0px 0px 0px;padding:0px;width:25%;background-color:#f3f3f3;height:80px;}
+	
+}
+
+@media(min-width:981px) and (max-width:1024px)
+{
+	#b1{display:block;}
+	#box2{display:block;}
+	#b2n{display:none;} 
+	#box3{height:300px;}
+}
+
+.box2n
+{
+	position:fixed;
+	top:0px;
+	padding-bottom:10px;
+	padding-top:0px;
+	width:100%;
+	margin:0px 0px 0px;
+	height:50px;
+	display:none;
+}
+
+
+
+</style>
+<body>
+
+<div class="box2n" ; id="b2n">
+	<ul style="background-color:#666666;height:40px">
+	<li style="width:10%;padding-right:10px"><img src="53.png" width=40 height=40>&nbsp&nbsp</li>
+		<li style="width:40%"><img src="55.png" width=100 height=50>&nbsp&nbsp</li>	
+		<li style="width:40%"><img src="56.png" width=40 height=50>&nbsp&nbsp</li>	
+	<li style="float:right;width:10%"><img src="54.png" width=40 height=40>&nbsp&nbsp</li>	
+
+ </div>
+
+<div class="box1" id="b1">
+
+<ul style="height:40px">
+  <li><a href="#Personal">Personal</a></li>
+  <li><a href="#Privilege">Privilege</a></li>
+  <li><a href="#Wealth">Wealth</a></li>
+  <li><a href="#Private">Private</a></li>
+  <li><a href="#NRI">NRI</a></li>
+  <li><a href="#Corporate">Corporate</a></li>
+  <li><a href="#Business">Business</a></li>
+  <li><a href="#About us">About us</a></li>
+  <li><a href="#Offers"><img src="20.jpg">&nbsp&nbspOffers  |</a></li>
+  <li><a href="#Help"><img src="21.png">&nbsp&nbspHelp  |</a></li>
+<li><form>
+<div style="padding:20px 20px; background-color:#FF8C00;float:right"><input type="text" placeholder="Search" style=" color:#FF8C00;width:98%; text-align:right"></input>
+	 </div></a></li></form>
+</ul>
+
+</div>
+
+
+
+<div class="box2" id="box2">
+
+<ul style="background-color:white;height:80px">
+<li style="padding-left:40px;padding-right:10px"><img src="22.jpg" width=215 height=120>&nbsp&nbsp</li>	
+<li style="padding:35px 0px"><a href="#Personal" style="color:#0c4678">Current Accounts</a></li>
+  <li style="padding:25px 0px"><a href="#Privilege" style="color:#0c4678">Business loans</a></li>
+  <li style="padding:25px 0px"><a href="#Wealth" style="color:#0c4678">Trade Services</a></li>
+  <li style="padding:25px 0px"><a href="#Private" style="color:#0c4678">CMS</a></li>
+  <li style="padding:25px 0px"><a href="#Private" style="color:#0c4678">Institutional Banking</a></li>
+  <li style="padding:25px 0px"><a href="#NRI" style="color:#0c4678">Get in Touch</a></li>
+  <li style="padding:37px 0px 37px"><form><input type="text" placeholder="Corporate                >" style=" color:#0c4678;height:40px;width:200px; text-align:right; border:2px solid #0c4678"></input></form></li>
+  <form action="https://www.google.com/"><input type="image" style="padding-top:4px" src="23.png" alt="login" width="90" height="50"></form>
+ </div>
+
+
+<div class="box3" ; id="box3">
+
+
+  <a href="https://www.google.com/"><img class="mySlides" src="31.png" style="width:100%;height:100%"></a>
+  <a href="https://www.google.com/"><img class="mySlides" src="32.png" style="width:100%;height:100%"></a>
+  <a href="https://www.google.com/"><img class="mySlides" src="33.png" style="width:100%;height:100%"></a>
+  
+  <!--<picture>
+<source media="(min-width: 800px)" srcset="1.png">
+<source media="(max-width: 800px)" srcset="file:///C:/Users/Rhea/Desktop/201712070_Lab6/15.png">
+<img src="file:///C:/Users/Rhea/Desktop/201712070_Lab6/1.png" alt="Flowers" style="width:auto;">
+</picture><-->
+</div>
+
+
+
+
+<div style="margin:20px 0px;width=100%;">
+	<div class="box4" id="box43">
+	<a href="https://www.google.com/">
+
+<img src="34.png" alt="Flowers" style="width:100%;">
+</a>
+	</div>
+	
+	<div class="box4" id="box43">
+	<a href="https://www.google.com/">
+
+<img src="35.png" alt="Flowers" style="width:100%;">
+</a>
+	</div>
+	
+	<div class="box4" id="box41">
+	<a href="https://www.google.com/">
+
+<img src="36.png" alt="Flowers" style="width:100%;">
+</a>
+	</div>
+	
+	<div class="box4" id="box42">
+	<a href="https://www.google.com/">
+
+<img src="37.png" alt="Flowers" style="width:100%;">
+</a>
+	</div>
+</div>
+
+
+<!--other 4-->
+
+
+<div class="box6"id="box6">
+<a href="https://www.google.com/"><picture>
+<source media="(min-width: 981px)" srcset="38.png">
+<source media="(min-width: 0px)" srcset="62.png">
+<img src="C:\Users\Rhea\Pictures\compt\DSC00271.jpg" alt="Flowers" style="width:auto;">
+</picture></a>
+</div>
+
+<div class="box6"id="box6">
+<a href="https://www.google.com/"><picture>
+<source media="(min-width: 981px)" srcset="39.png">
+<source media="(min-width: 0px)" srcset="63.png">
+<img src="C:\Users\Rhea\Pictures\compt\DSC00271.jpg" alt="Flowers" style="width:auto;">
+</picture></a>
+</div>
+
+<div class="box6"id="box6">
+<a href="https://www.google.com/"><picture>
+<source media="(min-width: 981px)" srcset="40.png">
+<source media="(min-width: 0px)" srcset="64.png">
+<img src="C:\Users\Rhea\Pictures\compt\DSC00271.jpg" alt="Flowers" style="width:auto;">
+</picture></a>
+</div>
+
+<div class="box6"id="box6">
+<a href="https://www.google.com/"><picture>
+<source media="(min-width: 981px)" srcset="41.png">
+<source media="(min-width: 0px)" srcset="60.png">
+<img src="C:\Users\Rhea\Pictures\compt\DSC00271.jpg" alt="Flowers" style="width:auto;">
+</picture></a>
+</div>
+
+<div class="box7" id="box7">
+<a href="www.google.com"><img src="69.png" style="padding-left:150px"></a>
+<a href="www.google.com"><img src="70.png"></a>
+<a href="www.google.com"><img src="71.png"></a>
+</div>
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("box2");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000); // Change image every 3 seconds
+}
+
+</script>
+</body>
+</html>
